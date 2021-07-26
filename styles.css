@@ -28,6 +28,7 @@ header {
     width: 522px;
     background-color: #ff3949;
     border-radius: 30px;
+    border: 1px solid black;
 }
 
 h1 {
@@ -43,5 +44,22 @@ h1 {
     background-color: white;
     height: 432px;
     width: 432px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+}
+
+.bottomButtons {
+    
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin: 0px 15px;
+}
+
+.square {
+    box-shadow: 0 0 1px rgb(0, 0, 0) inset;
+}
+
+.squareActive {
+    background-color: grey;
 }
